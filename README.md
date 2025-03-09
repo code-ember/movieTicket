@@ -1,69 +1,75 @@
-# movieTicket
-Movie Ticket Booking Application
+# Movie Ticket Booking Application
 
-## INTRODUCTION
-Amy is developing a simple movie ticket booking application and needs your help. The program must store the user's name, the movie title, the number of tickets, and the price per ticket. The program will then calculate the total cost, apply some string manipulations, and display a detailed booking confirmation message.
+## Introduction
+This project is a simple **Movie Ticket Booking Application** designed to demonstrate core Java concepts. The application allows users to store their details (such as name and movie title), calculate ticket prices, and display a detailed booking confirmation message with formatted output.
 
-## THE GOAL
-Help Amy develop her program by declaring and initializing variables, calculating ticket prices, applying string manipulation, and formatting user-facing output? 
-You'll need to write some robust code to help Amy develop her application. 
+## Features
+1. Stores user information, including:
+   - First name
+   - Last name
+   - Movie title
+   - Number of tickets
+   - Price per ticket
+2. Calculates the total cost based on the number of tickets and price per ticket.
+3. Formats and displays:
+   - User name in lowercase.
+   - Movie title in uppercase.
+4. Outputs a detailed booking confirmation message.
 
-## DECLARE AND INITIALIZE THE VARIABLES
-You need to declare and initialize the variables for the following:
-- First name
-- Last name
-- Movie title
-- Number of tickets
-- Price per ticket
-Then, you need to calculate the total ticket price using the assigned number of tickets and the cost per ticket.
+## Steps to Implement
+### Step 1: Declare and Initialize Variables
+- Create and initialize variables for user details and ticket prices.
 
-STEP 1: Declare and initialize variables
--  Inside the main method, declare and initialize the outlined variables.
+**Expected Output:**
+```
+First Name: Sandy 
+Last Name: Jones 
+Movie: The Source Code 
+Number of Tickets: 8 
+Price per ticket in USD: 10.57
+```
 
-EXPECTED OUTPUT: 
-- First Name: Sandy
-- Last Name: Jones
-- Movie: The Source Code
-- Number of Tickets: 8
-- Price per ticket in USD: 10.57
+### Step 2: Calculate Total Price
+- Compute the total cost using the number of tickets and price per ticket.
 
-STEP 2: Calculate the total ticket price
-- Once you’ve printed all the details of the initialized variables, you need to calculate the ticket's total price using the number of tickets and the price per ticket variables you created. Be sure to assign a variable to the calculated total price so that you can use it in later calculations.
+**Expected Output:**
+```
+Total Price of 8 tickets: 84.56
+```
 
-EXPECTED OUTPUT: 
-- Total Price of 8 tickets: 84.56
+### Step 3: Perform String Operations
+- Concatenate the first name and last name to create a `username` in lowercase.
+- Convert the movie title to uppercase for emphasis.
 
-## PERFORM STRING OPERATIONS TO FORMAT THE OUTPUT
-Amy is very impressed that you’ve coded her program to declare and initialize relevant variables and calculate the total cost of tickets. Next, she needs your help in formatting the strings for the final output. 
+**Expected Output:**
+```
+Username: sandyjones
+Movie: THE SOURCE CODE
+```
 
-STEP 3: Concatenate the first name and last name to get the username 
-- So far, you’ve calculated the total price of eight tickets. However, every system needs a user name. Here we create a username by concatenating the first name and the last name and converting it all to lower case. Your job is to concatenate the first name and the last name and convert it to lower case and assign it to a new variable named “*userName*”.
+### Step 4: Final Output
+- Display a formatted ticket confirmation message with all details.
 
-EXPECTED OUTPUT: 
-- Username: sandyjones
+**Final Output:**
+```
+Congratulations!! You have successfully booked the tickets.
+Username: sandyjones
+Movie: THE SOURCE CODE
+Number of Tickets: 8
+Price per ticket: $10.57
+Total price of 8 tickets: $84.56
 
-STEP 4: Convert the movie title to upper case to highlight it in the ticket
-- You have successfully created the username. Now, you need to highlight the movie name in the final ticket, so you will have to convert the *movieTitle* to uppercase
+Thank you for choosing us for booking your movie tickets. Enjoy your movie!!!
+```
 
-EXPECTED OUTPUT: 
-- Movie: THE SOURCE CODE
+## Conclusion
+By completing this project, you will gain hands-on experience with:
+- Declaring and initializing variables.
+- Performing arithmetic operations.
+- Manipulating strings to produce user-friendly output.
 
-STEP 5: Print the final expected output
-- Now that you have calculated the final price, you must print out the final output for validation. 
+## Software Used
+This application was developed using **IntelliJ IDEA**.
 
-FINAL EXPECTED OUTPUT: 
-- Congratulations!! You have successfully booked the tickets
-
-- Username: sandyjones
-- Movie: THE SOURCE CODE
-- Number of Tickets: 8
-- Price per ticket: $10.57
-- Total price of 8 tickets: $84.56
-
-- Thank you for choosing us for booking your movie tickets
-- Enjoy your movie!!!
-
-## CONCLUSION
-Amy with her movie ticket booking application, you’ve applied these foundational skills in a practical scenario. Your ability to declare and initialize variables, perform arithmetic operations, and manipulate Strings to create formatted output is impressive - it certainly impressed Amy! 
-
-## Software Used: IntelliJ
+---
+Feel free to tweak it to better suit your style or add any additional sections, like “Installation Instructions” or “Contributing Guidelines”! Let me know if you need help with that.
