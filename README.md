@@ -70,6 +70,3 @@ By completing this project, you will gain hands-on experience with:
 
 ## Software Used
 This application was developed using **IntelliJ IDEA**.
-
----
-Feel free to tweak it to better suit your style or add any additional sections, like “Installation Instructions” or “Contributing Guidelines”! Let me know if you need help with that.
